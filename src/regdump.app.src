@@ -1,0 +1,12 @@
+{application, regdump,
+ [
+  {description, "Register access utility for the AM335x processors"},
+  {vsn, "0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { regdump_app, []}},
+  {env, []}
+ ]}.
